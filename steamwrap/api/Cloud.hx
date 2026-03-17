@@ -9,7 +9,7 @@ import steamwrap.helpers.MacroHelper;
 /**
  * The Steam Cloud API. Used by API.hx, should never be created manually by the user.
  * API.hx creates and initializes this by default.
- * Access it via API.ugcstatic variable
+ * Access it via the API.ugcstatic variable
  */
 
 @:allow(steamwrap.api.Steam)
@@ -113,7 +113,7 @@ class Cloud
 	private var SteamWrap_SetCloudEnabledForApp  = Loader.load("SteamWrap_SetCloudEnabledForApp", "iv");
 	
 	private function new(appId_:Int, CustomTrace:String->Void) {
-		#if sys		//TODO: figure out what targets this will & won't work with and upate this guard
+		#if sys		//TODO: figure out what targets this will & won't work with and update this guard
 		
 		if (active) return;
 		
