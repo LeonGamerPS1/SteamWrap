@@ -63,7 +63,7 @@ Probably works with NME as well but I'm unsure of the requirements there. Ask Hu
 
 **Linux**
  - Make sure libsteam_api.so is sitting next to steamwrap.ndll
- - You will need a launch script to ensure libraries are loaded from the righ location. An example (Test.sh) is provided in the example folder
+ - You will need a launch script to ensure libraries are loaded from the right location. An example (Test.sh) is provided in the example folder
    - When you release your game on Steam, set this launch script as your executable, NOT the raw linux binary itself
 
 
